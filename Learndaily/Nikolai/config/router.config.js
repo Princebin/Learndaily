@@ -1,10 +1,9 @@
 export default [
   // user
   {
-    path: '/',
+    path: '/user',
     component: '../layouts/UserLayout',
     routes: [
-      { path: '/', redirect: '/user/login' },
       { path: '/user', redirect: '/user/login' },
       { path: '/user/login', component: './User/Login' },
       { path: '/user/register', component: './User/Register' },
@@ -13,13 +12,13 @@ export default [
   },
   // app
   {
-    path: '/dashboard',
+    path: '/',
     component: '../layouts/BasicLayout',
     Routes: ['src/pages/Authorized'],
     authority: ['admin', 'user'],
     routes: [
       // dashboard
-      //{ path: '/', redirect: '/dashboard/analysis' },
+      { path: '/', redirect: '/user/login' },
       {
         path: '/dashboard',
         name: 'dashboard',
