@@ -31,25 +31,25 @@ const CreateForm = Form.create()(props => {
       onCancel={() => handleModalVisible()}
     >
       <Form onSubmit={() => handleModalVisible()} layout="inline">
-        <Row gutter={16}>
-          <Col span={6}>
+        <Row >
+          <Col span={10}>
             <FormItem label="设备型号:">
               <Input placeholder="请输入设备型号（多个以逗号隔开）！" />
             </FormItem>
           </Col>
-          <Col span={6}>
-            <FormItem label="安卓版本号:" style={{ width: '100%' }}>
-              <Select placeholder="请选择" mode="multiple">
+          <Col span={10}>
+            <FormItem label="安卓版本号:">
+              <Select placeholder="请选择" mode="multiple" style={{ width: '150px' }}>
                 <Option value="0">Android 6.0</Option>
                 <Option value="1">Android 7.0</Option>
-                <Option value="1">Android 7.1</Option>
-                <Option value="1">Android 8.0</Option>
-                <Option value="1">Android 8.1</Option>
-                <Option value="1">Android 9.0</Option>
+                <Option value="2">Android 7.1</Option>
+                <Option value="3">Android 8.0</Option>
+                <Option value="4">Android 8.1</Option>
+                <Option value="5">Android 9.0</Option>
               </Select>
             </FormItem>
           </Col>
-          <Col span={6}>
+          <Col >
             <Button type="primary" htmlType="submit">
               保存
             </Button>
