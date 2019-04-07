@@ -20,6 +20,18 @@ export default [
       // dashboard
       { path: '/', redirect: '/user/login' },
       {
+        path: '/automaticpackaging',
+        name: '打包',
+        icon: 'dashboard',
+        routes: [
+          {
+            path: '/automaticpackaging/foundation',
+            name: '基础打包',
+            component: './AutomaticPackaging/Foundation',
+          },
+        ],
+      },
+      {
         path: '/dashboard',
         name: 'dashboard',
         icon: 'dashboard',
