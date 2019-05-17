@@ -32,6 +32,18 @@ export default [
         ],
       },
       {
+        path: '/magement',
+        name: '财务管理',
+        icon: 'dashboard',
+        routes: [
+          {
+            path: '/magement/home',
+            name: '主页',
+            component: './Magement/Home',
+          },
+        ],
+      },
+      {
         path: '/dashboard',
         name: 'dashboard',
         icon: 'dashboard',
