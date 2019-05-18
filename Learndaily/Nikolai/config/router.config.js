@@ -41,6 +41,16 @@ export default [
             name: '主页',
             component: './Magement/Home',
           },
+          {
+            path: '/magement/weeklyassets',
+            name: '现有资金',
+            component: './Magement/WeeklyAssets',
+          },
+          {
+            path: '/magement/debt',
+            name: '债务',
+            component: './Magement/Debt',
+          },
         ],
       },
       {

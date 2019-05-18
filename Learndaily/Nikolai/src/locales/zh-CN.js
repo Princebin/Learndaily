@@ -20,6 +20,10 @@ export default {
   'app.forms.basic.title': '基础表单',
   'app.forms.basic.description':
     '表单页用于向用户收集或验证信息，基础表单常见于数据项较少的表单场景。',
+  'app.magement.home.title': '主页',
+  'app.magement.home.description': '这是个人财务管理主页',
+  'app.magement.weeklyAssets.title': '每周资金',
+  'app.magement.weeklyAssets.description': '这是每周资金统计页',
   ...analysis,
   ...exception,
   ...form,
