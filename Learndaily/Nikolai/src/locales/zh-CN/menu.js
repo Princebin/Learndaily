@@ -35,4 +35,11 @@ export default {
   'menu.account.settings': '个人设置',
   'menu.account.trigger': '触发报错',
   'menu.account.logout': '退出登录',
+  'menu.magement':'财务管理',
+  'menu.magement.debt': '债务',
+  'menu.magement.home': '主页',
+  'menu.magement.income': '收入',
+  'menu.magement.pay': '支出',
+  'menu.magement.salary': '工资',
+  'menu.magement.weeklyassets': '每周资金',
 };

@@ -205,6 +205,8 @@ class WeeklyAssets extends PureComponent {
               </Button>
             </FormItem>
           </Form>
+          <div>每周资金统计表<a href="">(统计图)</a></div>
+          
           <Table columns={columns} />
         </Card>
       </PageHeaderWrapper>

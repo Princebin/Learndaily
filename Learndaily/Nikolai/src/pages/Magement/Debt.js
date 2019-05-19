@@ -74,8 +74,8 @@ class Debt extends PureComponent {
 
     return (
       <PageHeaderWrapper
-        title={<FormattedMessage id="app.magement.weeklyAssets.title" />}
-        content={<FormattedMessage id="app.magement.weeklyAssets.description" />}
+        title={<FormattedMessage id="app.magement.Debt.title" />}
+        content={<FormattedMessage id="app.magement.Debt.description" />}
         wrapperClassName={styles.Home}
       >
         <Card bordered={false}>

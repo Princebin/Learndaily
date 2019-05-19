@@ -33,23 +33,38 @@ export default [
       },
       {
         path: '/magement',
-        name: '财务管理',
+        name: 'magement',
         icon: 'dashboard',
         routes: [
           {
             path: '/magement/home',
-            name: '主页',
+            name: 'home',
             component: './Magement/Home',
           },
           {
             path: '/magement/weeklyassets',
-            name: '现有资金',
+            name: 'weeklyassets',
             component: './Magement/WeeklyAssets',
           },
           {
             path: '/magement/debt',
-            name: '债务',
+            name: 'debt',
             component: './Magement/Debt',
+          },
+          {
+            path: '/magement/salary',
+            name: 'salary',
+            component: './Magement/Salary',
+          },
+          {
+            path: '/magement/income',
+            name: 'income',
+            component: './Magement/Income',
+          },
+          {
+            path: '/magement/pay',
+            name: 'pay',
+            component: './Magement/Pay',
           },
         ],
       },
